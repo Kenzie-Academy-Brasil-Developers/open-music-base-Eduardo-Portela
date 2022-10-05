@@ -1,6 +1,6 @@
     const inputValue = document.getElementById('Price')
     const price = document.querySelector(".final-price > p")
-    inputValue.addEventListener("mousemove", (event) => {
+    inputValue.addEventListener("input", (event) => {
         let NinputValue = inputValue.value
         price.innerHTML = NinputValue
         let currentPrice = Number(price.innerHTML)
