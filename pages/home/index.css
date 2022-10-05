@@ -1,1 +1,142 @@
 /* Desenvolva sua estilização aqui ... */
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-grey-0);
+    margin: 50px 0px;
+}
+
+.cabecalho button{
+    background-color: var(--color-grey-6);
+}
+
+.music-type h3{
+    color: var(--color-grey-1);
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+
+button{
+    background-color: var(--color-grey-7);
+    color: var(--color-grey-3);
+    width: max-content;
+    padding: 7px;
+    height: max-content;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border:none;
+    cursor: pointer;
+    border-radius: var(--radius-1);
+    font-weight: 600;
+}
+
+.type-button:focus{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border: 1px solid white;
+}
+
+
+
+.div-price{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-grey-1);
+}
+
+.div-price input{
+    accent-color: var(--color-brand-1);
+    margin-top: 20px;
+}
+
+.define-price label{
+    color: var(--color-grey-1);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.define-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.final-price{
+    display: flex;
+    gap: 8px;
+}
+
+.albuns{
+    
+}
+
+.albuns h3{
+    margin: 60px 0px;
+    color: var(--color-grey-1);
+}
+
+.music-list{
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.music-list .card{
+    width: 308px;
+    background-color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+}
+
+.description{
+   padding: 16px;
+}
+
+.music-list .card img{
+    width: 100%;
+    border-radius: var(--radius-1) var(--radius-1) 0px 0px;
+    height: 113px;
+}
+
+.music-list .card .band{
+    display: flex;
+    gap: 16px;
+    color: var(--color-grey-1);
+}
+
+
+
+.music-list .card .band p{
+    font-size: 12px;
+}
+
+
+
+.music-list .card h4{
+    padding: 24px 0px;
+    color: var(--color-grey-1);
+}
+
+
+.card .buy-price{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: var(--color-grey-1);
+}
+
+.card .buy-price p{
+    font-weight: 600;
+
+}
+
+.card .buy-price button{
+    background-color: var(--color-grey-6);
+    color: var(--color-grey-2);
+    margin-right: 0;
+}
+

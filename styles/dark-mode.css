@@ -1,0 +1,61 @@
+.dark-mode .cabecalho button{
+    background-color: var(--color-grey-1);
+}
+
+.dark-mode .final-price span{
+    color: var(--color-grey-5);
+}
+
+.dark-mode .final-price p{
+    color: var(--color-grey-5);
+}
+
+.dark-mode .cabecalho h1{
+    color: var(--color-grey-8);
+}
+.dark-mode .music-type h3{
+    color: var(--color-grey-4);
+}
+
+.dark-mode .define-price label{
+    color: var(--color-grey-4); 
+}
+
+.dark-mode .albuns h3{
+    color: var(--color-grey-4);
+}
+
+.dark-mode .type-button{
+    color: var(--color-grey-3);
+    background-color: var(--color-grey-1);
+}
+
+.dark-mode .type-button:focus{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+}
+
+.dark-mode .music-list .card{
+    background-color: var(--color-grey-1);
+}
+
+.dark-mode .music-list .card .band{
+    color: var(--color-grey-6);
+}
+
+.dark-mode .music-list .buy-price p{
+    color: var(--color-grey-6); 
+}
+
+.dark-mode .card h4{
+    color: var(--color-grey-6);
+}
+
+.dark-mode .card .buy-price button{
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-3);
+}
+
+.dark-mode{
+    background-color: var(--color-grey-0);
+}
